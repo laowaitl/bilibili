@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f25d8e",
+    "navigationBarTitleText": "哔哩哔哩",
+    "navigationBarTextStyle":"black"
+  }
+  ,
+
+
+  
+  "tabBar":{
+    "color":"#707070",
+    "selectedColor": "#f25d8e",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"images/Tab_首页.png",
+        "selectedIconPath": "images/Tab_首页_1.png"
+      },{
+        "pagePath": "pages/index/index",
+        "text": "分区",
+        "iconPath": "images/Tab_分区.png",
+        "selectedIconPath": "images/Tab_分区_1.png"
+      },{
+        "pagePath": "pages/index/index",
+        "text": "动态",
+        "iconPath": "images/Tab_交流.png",
+        "selectedIconPath": "images/Tab_交流_1.png"
+      },{
+        "pagePath": "pages/index/index",
+        "text": "消息",
+        "iconPath": "images/Tab_动态.png",
+        "selectedIconPath": "images/Tab_动态_1.png"
+      }
+    ]
+  }
+    
+
+}
