@@ -1,0 +1,4 @@
+.video{
+  width: 750rpx;
+  height: 180px;
+}

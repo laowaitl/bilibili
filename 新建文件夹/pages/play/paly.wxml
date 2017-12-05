@@ -1,0 +1,25 @@
+<view>
+  <video class="video" src="{{src}}" controls></video>
+
+  <!-- 标题 -->
+  <view class='play_title'>
+    <text>{{post.Title}}</text>
+  </view>
+  <!-- 播放量 弹幕数 -->
+  <view class='play_num'>
+    <image style="width: 32rpx; height: 32rpx; " src="../../images/播放数_32_1.png" />
+    <text>{{}}</text>
+    <image style="width: 32rpx; height: 32rpx; " src="../../images/弹幕数_32_1.png" />
+    <text>{{}}</text>
+  </view>
+
+
+
+  <!-- 简介 -->
+  <view class='play_jianjie'>
+    
+    <text>{{post.Describe}}</text>
+  </view>
+
+
+</view>
